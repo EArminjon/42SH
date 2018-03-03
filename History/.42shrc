@@ -1,0 +1,22 @@
+HELLO ! This file is use to make some action when 42sh is launch.
+
+alias ls     	     	ls --color
+alias ..		cd ..
+alias ...		cd ../..
+alias emacs		emacs -nw
+alias ne    	  	emacs -nw
+alias ll	  	ls -l
+alias la		ls -la
+alias j			jobs
+
+env EDITOR		"emacs"
+env HISTSIZE		"1000"
+env MAIL		"/u/all/${USER}/mail/${USER}"
+env PAGER		"less"
+env PS1			"(\u@\h \#)"
+env SAVEHIST		"1000"
+env WATCH		"all"
+env LIBRARY_PATH	"$LIBRARY_PATH:/home/armin.pc/.graph_programming/lib"
+env LD_LIBRARY_PATH	"$LIBRARY_PATH:/home/armin.pc/.graph_programming/lib"
+env CPATH		"$CPATH:/home/armin.pc/.graph_programming/include"
+env PATH 		"/bin:/sbin:/usr/bin:/usr/sbin:/usr/heimdal/bin:/usr/heimdal/sbin:/home/armin.pc/bin"

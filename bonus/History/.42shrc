@@ -1,0 +1,16 @@
+//Welcome ! This is 42shrc : an option file.
+cd
+alias ls     	     	ls -N --color=tty -T 0
+alias ..		cd ..
+alias ...		cd ../..
+alias emacs		emacs -nw
+alias ne    	  	emacs -nw
+alias ll	  	ls -l
+alias la		ls -la
+alias j			jobs
+
+setenv EDITOR		"emacs"
+setenv HISTSIZE		"1000"
+setenv SAVEHIST		"1000"
+setenv WATCH		"all"
+setenv PATH 		"/bin:/sbin:/usr/bin:/usr/sbin:/usr/heimdal/bin:/usr/heimdal/sbin:/home/armin.pc/bin"
